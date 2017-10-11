@@ -14,8 +14,8 @@ namespace TestConsole
         {
             Console.WriteLine("Request new Token from the server");
             var tokenAuthenticate = new Authentication();
-            tokenAuthenticate.Credentials.Username = "9009975";
-            tokenAuthenticate.Credentials.Password = "Deltaforce&2024";
+            tokenAuthenticate.Credentials.Username = "<Your DSS Username>";
+            tokenAuthenticate.Credentials.Password = "<Your DSS Password>";
             var dssToken=String.Format("Token{0}",tokenAuthenticate.GetToken().Result);
             Console.WriteLine("Token={0}",dssToken);
 
