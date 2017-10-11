@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="TRTHRestAPIDotnetCore">
+      <HintPath>..\TRTHRestAPIDotnetCore\bin\Debug\netcoreapp2.0\TRTHRestAPIDotnetCore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
